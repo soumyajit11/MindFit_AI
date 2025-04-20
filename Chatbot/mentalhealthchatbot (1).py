@@ -10,7 +10,7 @@ Original file is located at
 !pip install langchain_groq langchain_core langchain_community
 
 from langchain_groq import ChatGroq
-llm= ChatGroq(temperature=0, groq_api_key="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", model_name="llama3-70b-8192")
+llm= ChatGroq(temperature=0, groq_api_key="xyz", model_name="llama3-70b-8192")
 result=llm.invoke("History of Kolkata")
 print(result.content)
 
